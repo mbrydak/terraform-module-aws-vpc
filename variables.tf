@@ -2,6 +2,7 @@ variable "vpc_name" {
   description = "Name of the VPC"
   default = "my-vpc"
 }
+
 variable "public_subnets" {
   description = "Number of public subnets to create"
   default = 3
